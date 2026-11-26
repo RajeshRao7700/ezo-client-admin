@@ -1,0 +1,48 @@
+/* Ionic Variables and Theming. For more info, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  --ion-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /** Admin Brand - Indigo / Deep Blue **/
+  --ion-color-primary: #006ac9;
+  --ion-color-primary-rgb: 0, 106, 201;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #005eb1;
+  --ion-color-primary-tint: #1a79ce;
+
+  /** Success - Emerald **/
+  --ion-color-success: #10b981;
+  --ion-color-success-rgb: 16, 185, 129;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+
+  /** Warning - Amber **/
+  --ion-color-warning: #f59e0b;
+  --ion-color-warning-rgb: 245, 158, 11;
+  --ion-color-warning-contrast: #000000;
+
+  /** Danger - Crimson **/
+  --ion-color-danger: #ef4444;
+  --ion-color-danger-rgb: 239, 68, 68;
+  --ion-color-danger-contrast: #ffffff;
+
+  /** Surfaces **/
+  --ion-background-color: #f8fafc;
+  --ion-background-color-rgb: 248, 250, 252;
+  --ion-text-color: #0f172a;
+  --ion-text-color-rgb: 15, 23, 42;
+
+  --ion-card-background: #ffffff;
+  --ion-item-background: #ffffff;
+}
+
+ion-content {
+  --background: #f8fafc;
+}
+
+ion-header ion-toolbar {
+  --background: #ffffff;
+  --border-color: #e2e8f0;
+}
